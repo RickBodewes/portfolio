@@ -8,9 +8,9 @@
 @import 'base/base', 'base/reset', 'base/typography';
 
 //importing layout elements
-
+@import 'layout/sections', 'layout/header-home';
 
 //importing component elements
-
+@import 'components/glitch';
 
 //importing page specific elements
