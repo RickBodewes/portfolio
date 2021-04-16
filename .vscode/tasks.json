@@ -4,7 +4,7 @@
         {
             "label": "Sass Compile",
             "type": "shell",
-            "command": "node-sass --output-style compressed scss/main.scss css/style.css",
+            "command": "node-sass --output-style compressed scss/style.scss css/style.css",
             "group": "build",
             "problemMatcher": []
         }

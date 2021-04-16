@@ -1,0 +1,14 @@
+@mixin base-font-style{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+@mixin header-font-style{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@mixin sub-header-font-style{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
