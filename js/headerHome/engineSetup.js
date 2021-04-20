@@ -6,6 +6,10 @@ let ctx_HH = canvas_HH.getContext('2d');
 canvas_HH.width = canvas_HH.clientWidth;
 canvas_HH.height = canvas_HH.clientHeight;
 
+//setting draw color to white
+ctx_HH.strokeStyle = "#fff";
+ctx_HH.fillStyle = "#fff";
+
 //creating the perspective matrix
 let FOV_HH = 120;
 let ASPECT_RATIO_HH = canvas_HH.width / canvas_HH.height;
@@ -18,6 +22,8 @@ let perspectiveMatrix_HH = MakePerspectiveMatrix(FOV_HH, ASPECT_RATIO_HH, FRONT_
 window.addEventListener('resize', () => {
     canvas_HH.width = canvas_HH.clientWidth;
     canvas_HH.height = canvas_HH.clientHeight;
+
+    ctx_HH.strokeStyle = "#fff";
     
     ASPECT_RATIO_HH = canvas_HH.width / canvas_HH.height;
 
@@ -29,9 +35,9 @@ function loop_HH(timestamp) {
     let progress = timestamp - lastRender_HH;
 
     update_HH(progress / 1000)
-    draw_HH()
+    draw_HH(progress / 1000)
 
-    lastRender = timestamp
+    lastRender_HH = timestamp
     window.requestAnimationFrame(loop_HH)
 }
 let lastRender_HH = 0
