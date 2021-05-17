@@ -34,8 +34,10 @@
                             <div class="column-vertical-half-width">heya</div>
                             <div class="column-vertical-half-width">
                                 <!-- skill/experience bars -->
-                                <div class="skill-bar-container">
+                                <div class="skill-bar-wrapper">
+                                    <div class="skill-bar-container">
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
