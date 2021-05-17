@@ -20,14 +20,14 @@
     &::before{
         @include glitchCopy;
         left: 2px;
-		text-shadow: -2px 0 #646464;
+		text-shadow: -2px 0 #DF00FE;
 		animation: glitch-anim1 5s infinite linear alternate-reverse;
     }
 
-    &::after{
+    &::after{   
         @include glitchCopy;
 		left: -1px;
-		text-shadow: -1px 0 #4b4b4b, 2px 2px #646464;
+		text-shadow: -1px 0 #4b4b4b, 2px 2px #DF00FE;
 		animation: glitch-anim2 2.7s infinite linear alternate-reverse;
     }
 }

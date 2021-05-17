@@ -1,3 +1,5 @@
+//TODO change to webgl
+
 //getting canvas elements
 let canvas_HH = document.getElementById('header_canvas');
 let ctx_HH = canvas_HH.getContext('2d');
@@ -8,7 +10,6 @@ canvas_HH.height = canvas_HH.clientHeight;
 
 //setting draw color to white
 ctx_HH.strokeStyle = "#fff";
-ctx_HH.fillStyle = "#fff";
 
 //creating the perspective matrix
 let FOV_HH = 120;

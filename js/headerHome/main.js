@@ -1,7 +1,7 @@
 //perlin variables
-let perlinResolution = 10;
+let perlinResolution = 6;
 let perlinAmplifier = 2;
-let perlinSpeedX = 4;
+let perlinSpeedX = 3;
 let perlinSpeedZ = 2;
 let perlinPositionX = 0;
 let perlinPositionZ = 0;
@@ -56,8 +56,6 @@ function update_HH(progress){
 //the render cycle
 function draw_HH(progress){
     ctx_HH.clearRect(0, 0, canvas_HH.width, canvas_HH.height);
-
-    ctx_HH.fillText('FPS:' + Math.floor(1/progress), 50, 50)
 
     for(let i = 0; i < faces.length; i++){
         for(let j = 0; j < 3; j++){

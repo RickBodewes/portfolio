@@ -1,5 +1,5 @@
 // importing sass utils (variables, functions, mixins and placeholders)
-@import 'sass_utils/mixins';
+@import 'sass_utils/mixins', 'sass_utils/vars';
 
 //importing libraries
 @import 'vendors/fonts';
@@ -11,6 +11,6 @@
 @import 'layout/sections', 'layout/header-home';
 
 //importing component elements
-@import 'components/glitch';
+@import 'components/columns', 'components/glitch';
 
 //importing page specific elements

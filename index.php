@@ -16,6 +16,35 @@
                     </div>
                 </div>
             </section><!-- header -->
+
+
+
+            <section class="section-default" id="about">
+                <div class="section-default-wrapper">
+                    <div class="section-header">
+                        <p>
+                            <img src="/media/icon/sectionIcon.svg" alt="section icon">
+                        </p>
+                        <p>
+                            .01 About
+                        </p>
+                    </div>
+                    <div class="section-content">
+                        <div class="column-container-vertical">
+                            <div class="column-vertical-half-width">heya</div>
+                            <div class="column-vertical-half-width">
+                                <!-- skill/experience bars -->
+                                <div class="skill-bar-container">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- section wrapper -->
+            </section><!-- about -->
+
+            
+
         </div><!-- wrapper -->
         <?php require "include/scripts.html" ?>
     </body>
